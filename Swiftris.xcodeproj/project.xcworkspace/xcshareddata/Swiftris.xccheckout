@@ -10,31 +10,31 @@
 	<string>Swiftris</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F951CAFD-A7C4-419A-9642-C7C79CF8BFF9</key>
-		<string>ssh://github.com/jordanhudgens/ios-swift-tetris-clone.git</string>
+		<key>EB300871F9791EBDFA99E50D42F2AAF09014D6E8</key>
+		<string>https://github.com/cornelcroi/ios-swift-tetris-clone.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swiftris.xcodeproj/project.xcworkspace</string>
+	<string>Swiftris.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F951CAFD-A7C4-419A-9642-C7C79CF8BFF9</key>
+		<key>EB300871F9791EBDFA99E50D42F2AAF09014D6E8</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/jordanhudgens/ios-swift-tetris-clone.git</string>
+	<string>https://github.com/cornelcroi/ios-swift-tetris-clone.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F951CAFD-A7C4-419A-9642-C7C79CF8BFF9</string>
+	<string>EB300871F9791EBDFA99E50D42F2AAF09014D6E8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F951CAFD-A7C4-419A-9642-C7C79CF8BFF9</string>
+			<string>EB300871F9791EBDFA99E50D42F2AAF09014D6E8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Swiftris</string>
+			<string>ios-swift-tetris-clone</string>
 		</dict>
 	</array>
 </dict>
