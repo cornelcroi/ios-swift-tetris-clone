@@ -22,7 +22,7 @@ class GameScene: SKScene {
     
     var textureCache = Dictionary<String, SKTexture>()
     
-    init(size: CGSize) {
+    override init(size: CGSize) {
         super.init(size: size)
         
         anchorPoint = CGPoint(x: 0, y: 1.0)
@@ -45,6 +45,10 @@ class GameScene: SKScene {
         
         runAction(SKAction.repeatActionForever(SKAction.playSoundFileNamed("theme.mp3", waitForCompletion: true)))
     }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     func playSound(sound:String) {
         runAction(SKAction.playSoundFileNamed(sound, waitForCompletion: false))
@@ -60,13 +64,13 @@ class GameScene: SKScene {
         var timePassed = lastTick!.timeIntervalSinceNow * -1000.0
         
         if timePassed > tickLengthMillis {
-            lastTick = NSDate.date()
+            lastTick = NSDate()
             tick?()
         }
     }
     
     func startTicking() {
-        lastTick = NSDate.date()
+        lastTick = NSDate()
     }
     
     func stopTicking() {
